@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red178\green24\blue137;\red30\green32\blue40;\red255\green255\blue255;
+\red0\green160\blue190;\red219\green44\blue56;\red65\green182\blue69;}
+{\*\expandedcolortbl;;\csgenericrgb\c69800\c9500\c53600;\csgenericrgb\c11800\c12500\c15700;\csgenericrgb\c100000\c100000\c100000;
+\csgenericrgb\c0\c62600\c74600;\csgenericrgb\c85900\c17100\c21900;\csgenericrgb\c25500\c71400\c27000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 1.Swift Notification Template\
+\pard\tx692\pardeftab692\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 extension\cf4  \cf5 Notification\cf4 .\cf5 Name\cf4  \{
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf4     \cf2 public\cf4  \cf2 struct\cf4  RDCamNotification \{
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf4         \cf2 public\cf4  \cf2 static\cf4  \cf2 let\cf4  sectionTimeChanged = \cf5 Notification\cf4 .\cf5 Name\cf4 (\cf6 "RDCam.notification.sectionTimeChanged"\cf4 )
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf4     \}
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf4     \cf7 /*
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      // Usage
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      //Post
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      NotificationCenter.default.post(name: NSNotification.Name.RDCamNotification.sectionTimeChanged, object: nil)
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      //addObserver
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      NotificationCenter.default.addObserver(self, selector: #selector(notifictionAction), name: NSNotification.Name.RDCamNotification.sectionTimeChanged, object: nil)
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      @objc fileprivate func notifictionAction() \{
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      \}
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf7      */
+\f0\fs24 \cf0 \
+
+\f1\fs28 \cf4 \}}
